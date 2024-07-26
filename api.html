@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenis Kucing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Jenis Kucing</h1>
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="Cari kucing...">
+        <select id="search-dropdown" style="display: flex;">
+            <option value="">Pilih jenis kucing...</option>
+        </select>
+    </div>
+    <div id="cat-container"></div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="modal-close" class="modal-close">&times;</span>
+            <h2 id="modal-name"></h2>
+            <img id="modal-image" src="" alt="">
+            <p id="modal-description"></p>
+            <p><strong>Temperament:</strong> <span id="modal-temperament"></span></p>
+            <p><strong>Origin:</strong> <span id="modal-origin"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
